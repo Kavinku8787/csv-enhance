@@ -1,10 +1,17 @@
+# Example metadata for the workbook.
 @meta
-title: Weekly retail performance
+title: Weekly retail workbook
 currency: USD
 owner: operations
 
+# The plugin block is only parsed at this stage.
+@plugin plugin
+path: ./examples/plugins/finance.ts
+exports: tax, bucket
+
+# Raw sales data.
 @table sales
-region,item,channel,price,qty
+region[string],item[string],channel[string],price[number],qty[number]
 North,apple,store,3,5
 North,banana,online,2,10
 South,apple,online,3,8
@@ -12,17 +19,15 @@ South,orange,store,4,6
 West,banana,store,2,7
 West,orange,online,4,3
 
+# Expressions are still preserved as source text in the file interface.
 @compute sales
 revenue = price * qty
+taxed_revenue = plugin.tax(price, qty)
+size_bucket = plugin.bucket(qty)
 avg_qty = avg(qty)
-delta_from_avg = qty - avg_qty
 
+# Demo plot syntax: bar only.
 @plot sales
-type: bar
-x: item
-y: revenue
-color: region
-title: Revenue by item and region
-
-@plot sales
-line region avg_qty
+x: price
+y: qty
+title: Price and quantity bar demo

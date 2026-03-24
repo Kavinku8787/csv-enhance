@@ -5,11 +5,20 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "npm run build && jest --runInBand"
   },
-  "dependencies": {},
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
   "devDependencies": {
+    "jest": "^30.3.0",
     "typescript": "^5.5.3"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/tests/unit/**/*.test.js"
+    ]
   },
   "private": true
 }

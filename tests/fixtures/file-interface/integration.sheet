@@ -1,0 +1,28 @@
+# Integration fixture for the file interface layer.
+region[string],price[number],active[boolean],note[null],count,flag,label,mixed,amount[number],total[number]
+North,3,true,,1,true,alpha,1,10,20
+South,4,false,,2,false,beta,hello,15,30
+East,5,true,,,,gamma,,18,36
+
+# Meta and plugin blocks can still follow the implicit first table.
+@meta
+title: integration demo
+owner: qa
+
+# Plugin blocks are parsed but not executed in this phase.
+@plugin finance
+path: ../../../examples/plugins/finance.ts
+exports: tax
+
+# Compute statements are preserved as source text in the file interface layer.
+@compute sheet
+target: double_total, taxed_total
+double_total = total * 2
+taxed_total = finance.tax(price, count)
+
+# Bar plot demo: plot fields must reference numeric columns.
+@plot sheet
+deps: amount,total
+x: amount
+y: total
+title: amount vs total

@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/QuetzalSidera/csv-enhance/main/asset/Logo.webp" alt="CSVX logo" width="88" style="vertical-align:middle;" />
-  <span style="display:inline-block;margin:0 12px;color:#9ca3af;font-size:28px;vertical-align:middle;">|</span>
-  <span style="display:inline-block;font-size:42px;font-weight:700;vertical-align:middle;">CSVX</span>
+  <img src="https://raw.githubusercontent.com/QuetzalSidera/csv-enhance/main/asset/Logo.webp" alt="CSVX logo" width="100" />
 </p>
+
+<h1 align="center">CSVX</h1>
 
 <p align="center">
   轻量、AI 友好、纯文本优先的电子表格格式。
@@ -77,6 +77,35 @@ csvx --help
 npm install csvx-lang
 npx csvx --help
 ```
+
+---
+
+## VS Code 扩展
+
+编辑器高亮与语言支持工具通过 GitHub Releases 分发，发布物是一个 `.vsix` 文件。
+
+先从 Releases 下载最新的 `csvx-language-support-*.vsix`，然后在本地用 VS Code 安装：
+
+```bash
+code --install-extension ./csvx-language-support-0.1.1.vsix
+```
+
+如果本机还没有 `code` 命令，可以先在 VS Code 里执行：
+
+- `Shell Command: Install 'code' command in PATH`
+
+也可以直接从 VS Code 命令面板中手动安装：
+
+- `Extensions: Install from VSIX...`
+
+当前扩展已经支持：
+
+- 语法高亮
+- 诊断提示
+- hover
+- 跳转到定义
+- 查找引用
+- 自动补全
 
 ---
 

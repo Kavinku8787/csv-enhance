@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="asset/Logo.webp" alt="CSVX logo" width="88" style="vertical-align:middle;" />
-  <span style="display:inline-block;margin:0 12px;color:#9ca3af;font-size:28px;vertical-align:middle;">|</span>
-  <span style="display:inline-block;font-size:42px;font-weight:700;vertical-align:middle;">CSVX</span>
+  <img src="asset/Logo.webp" alt="CSVX logo" width="100" />
 </p>
+
+<h1 align="center">CSVX</h1>
 
 <p align="center">
   Lightweight, AI-friendly, text-first spreadsheets.
@@ -77,6 +77,35 @@ If you prefer to use it inside a project instead of installing globally:
 npm install csvx-lang
 npx csvx --help
 ```
+
+---
+
+## VS Code Extension
+
+The editor tooling is distributed from the GitHub release page as a `.vsix` package.
+
+Download the latest `csvx-language-support-*.vsix` file from Releases, then install it locally in VS Code:
+
+```bash
+code --install-extension ./csvx-language-support-0.1.1.vsix
+```
+
+If the `code` command is not available yet, install it from VS Code first:
+
+- `Shell Command: Install 'code' command in PATH`
+
+You can also install the `.vsix` manually from the VS Code command palette:
+
+- `Extensions: Install from VSIX...`
+
+The current extension includes:
+
+- syntax highlighting
+- diagnostics
+- hover
+- go to definition
+- find references
+- completion
 
 ---
 

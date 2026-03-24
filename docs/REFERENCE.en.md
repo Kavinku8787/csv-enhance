@@ -4,7 +4,7 @@ This document is the syntax reference for advanced readers.
 
 If you are new to CSVX, start with:
 
-- [WIKI.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/WIKI.en.md)
+- [WIKI.en.md](WIKI.en.md)
 
 ---
 
@@ -233,7 +233,7 @@ Window-only builtins:
 
 See:
 
-- [BUILTINS.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/BUILTINS.en.md)
+- [BUILTINS.en.md](BUILTINS.en.md)
 
 ---
 

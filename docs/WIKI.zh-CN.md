@@ -22,7 +22,7 @@
 
 如果你想查完整语法，请去看：
 
-- [REFERENCE.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/REFERENCE.zh-CN.md)
+- [REFERENCE.zh-CN.md](REFERENCE.zh-CN.md)
 
 这份文档不走“查字典”路线。  
 它走的是“第一次接触也能看懂”的路线。
@@ -906,8 +906,8 @@ total = base
 
 下一步建议看：
 
-- [REFERENCE.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/REFERENCE.zh-CN.md)
-- [BUILTINS.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/BUILTINS.zh-CN.md)
+- [REFERENCE.zh-CN.md](REFERENCE.zh-CN.md)
+- [BUILTINS.zh-CN.md](BUILTINS.zh-CN.md)
 
 前者像“语法字典”，  
 后者像“内置函数菜单”。

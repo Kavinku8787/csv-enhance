@@ -40,12 +40,12 @@
 
 先快速扫一遍这些文档，会很有帮助：
 
-- [README.md](/Users/qianshuang/Project/WebProject/csv-enhance/README.md)
-- [README.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/README.zh-CN.md)
-- [WIKI.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/WIKI.zh-CN.md)
-- [REFERENCE.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/REFERENCE.zh-CN.md)
-- [TYPE_SYSTEM.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/TYPE_SYSTEM.md)
-- [ROADMAP.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/ROADMAP.zh-CN.md)
+- [README.md](../README.md)
+- [README.zh-CN.md](../README.zh-CN.md)
+- [WIKI.zh-CN.md](WIKI.zh-CN.md)
+- [REFERENCE.zh-CN.md](REFERENCE.zh-CN.md)
+- [TYPE_SYSTEM.md](TYPE_SYSTEM.md)
+- [ROADMAP.zh-CN.md](ROADMAP.zh-CN.md)
 
 它们能帮助理解：
 
@@ -158,16 +158,16 @@ npm run package:vscode-extension
 
 常见会涉及这些：
 
-- [WIKI.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/WIKI.en.md)
-- [WIKI.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/WIKI.zh-CN.md)
-- [REFERENCE.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/REFERENCE.en.md)
-- [REFERENCE.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/REFERENCE.zh-CN.md)
-- [BUILTINS.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/BUILTINS.en.md)
-- [BUILTINS.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/BUILTINS.zh-CN.md)
-- [CLI.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/CLI.en.md)
-- [CLI.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/CLI.zh-CN.md)
-- [ROADMAP.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/ROADMAP.en.md)
-- [ROADMAP.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/ROADMAP.zh-CN.md)
+- [WIKI.en.md](WIKI.en.md)
+- [WIKI.zh-CN.md](WIKI.zh-CN.md)
+- [REFERENCE.en.md](REFERENCE.en.md)
+- [REFERENCE.zh-CN.md](REFERENCE.zh-CN.md)
+- [BUILTINS.en.md](BUILTINS.en.md)
+- [BUILTINS.zh-CN.md](BUILTINS.zh-CN.md)
+- [CLI.en.md](CLI.en.md)
+- [CLI.zh-CN.md](CLI.zh-CN.md)
+- [ROADMAP.en.md](ROADMAP.en.md)
+- [ROADMAP.zh-CN.md](ROADMAP.zh-CN.md)
 
 如果改动影响新手的理解路径，就更新 Wiki。  
 如果改动影响精确语法，就更新 Reference。
@@ -254,4 +254,3 @@ test(runtime): cover grouped window output
 - 改动是否还贴合现有架构
 
 通常把这几件事看一遍，review 就会顺很多。
-

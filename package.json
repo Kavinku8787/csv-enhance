@@ -1,6 +1,6 @@
 {
   "name": "csvx-lang",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight spreadsheet format between CSV and XLSX, designed for humans and AI",
   "keywords": [
     "csvx",

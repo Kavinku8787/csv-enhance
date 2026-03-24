@@ -19,7 +19,7 @@ CSVX is a plain-text spreadsheet format that tries to be:
 
 If you want the full syntax catalog, go here:
 
-- [REFERENCE.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/REFERENCE.en.md)
+- [REFERENCE.en.md](REFERENCE.en.md)
 
 This guide is not trying to be a dictionary.  
 It is trying to feel like a calm first walkthrough.
@@ -882,8 +882,8 @@ If you made it this far, you already know enough to write a first real CSVX file
 
 Next good reads:
 
-- [REFERENCE.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/REFERENCE.en.md)
-- [BUILTINS.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/BUILTINS.en.md)
+- [REFERENCE.en.md](REFERENCE.en.md)
+- [BUILTINS.en.md](BUILTINS.en.md)
 
 The reference is your syntax dictionary.  
 The builtins doc is your function menu.

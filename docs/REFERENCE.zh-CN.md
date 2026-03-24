@@ -4,7 +4,7 @@
 
 如果你是第一次接触，请先看：
 
-- [WIKI.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/WIKI.zh-CN.md)
+- [WIKI.zh-CN.md](WIKI.zh-CN.md)
 
 ---
 
@@ -233,7 +233,7 @@ name[col:number]
 
 详见：
 
-- [BUILTINS.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/BUILTINS.zh-CN.md)
+- [BUILTINS.zh-CN.md](BUILTINS.zh-CN.md)
 
 ---
 

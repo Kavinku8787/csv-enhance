@@ -34,11 +34,11 @@ When in doubt, optimize for:
 
 It helps to quickly scan these documents first:
 
-- [README.md](/Users/qianshuang/Project/WebProject/csv-enhance/README.md)
-- [WIKI.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/WIKI.en.md)
-- [REFERENCE.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/REFERENCE.en.md)
-- [TYPE_SYSTEM.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/TYPE_SYSTEM.md)
-- [ROADMAP.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/ROADMAP.en.md)
+- [README.md](../README.md)
+- [WIKI.en.md](WIKI.en.md)
+- [REFERENCE.en.md](REFERENCE.en.md)
+- [TYPE_SYSTEM.md](TYPE_SYSTEM.md)
+- [ROADMAP.en.md](ROADMAP.en.md)
 
 These give a good sense of:
 
@@ -151,13 +151,13 @@ If a change affects the language or user-facing workflow, please update the rele
 
 Depending on the change, that may include:
 
-- [WIKI.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/WIKI.en.md)
-- [WIKI.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/WIKI.zh-CN.md)
-- [REFERENCE.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/REFERENCE.en.md)
-- [REFERENCE.zh-CN.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/REFERENCE.zh-CN.md)
-- [BUILTINS.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/BUILTINS.en.md)
-- [CLI.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/CLI.en.md)
-- [ROADMAP.en.md](/Users/qianshuang/Project/WebProject/csv-enhance/docs/ROADMAP.en.md)
+- [WIKI.en.md](WIKI.en.md)
+- [WIKI.zh-CN.md](WIKI.zh-CN.md)
+- [REFERENCE.en.md](REFERENCE.en.md)
+- [REFERENCE.zh-CN.md](REFERENCE.zh-CN.md)
+- [BUILTINS.en.md](BUILTINS.en.md)
+- [CLI.en.md](CLI.en.md)
+- [ROADMAP.en.md](ROADMAP.en.md)
 
 If the feature changes the beginner story, update the wiki.  
 If it changes the exact grammar, update the reference.

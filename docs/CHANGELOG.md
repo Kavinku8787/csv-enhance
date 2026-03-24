@@ -76,3 +76,13 @@ Initial public demo release.
 - chart image rendering is not implemented yet
 - editor support is currently strongest in VS Code; JetBrains support is not yet implemented
 - comment handling still treats any fully trimmed `#` line as a comment, including inside table sections
+
+---
+
+## [0.1.1] - 2026-03-24
+
+Documentation packaging fix.
+
+### Fixed
+
+- updated README logo URLs to use GitHub raw asset links so the npm package page can display the project logo reliably

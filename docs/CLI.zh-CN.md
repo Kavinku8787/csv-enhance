@@ -179,12 +179,12 @@ CLI 目前还没有完整覆盖这些方向：
 
 ## 相关文件
 
-- [src/cli/app.ts](/Users/qianshuang/Project/WebProject/csv-enhance/src/cli/app.ts)
-- [src/cli/csvx.ts](/Users/qianshuang/Project/WebProject/csv-enhance/src/cli/csvx.ts)
-- [src/cli/sheet.ts](/Users/qianshuang/Project/WebProject/csv-enhance/src/cli/sheet.ts)
-- [src/cli/format.ts](/Users/qianshuang/Project/WebProject/csv-enhance/src/cli/format.ts)
-- [src/runtime/sheet-compiler.ts](/Users/qianshuang/Project/WebProject/csv-enhance/src/runtime/sheet-compiler.ts)
-- [src/runtime/xlsx-adapter.ts](/Users/qianshuang/Project/WebProject/csv-enhance/src/runtime/xlsx-adapter.ts)
+- [src/cli/app.ts](../src/cli/app.ts)
+- [src/cli/csvx.ts](../src/cli/csvx.ts)
+- [src/cli/sheet.ts](../src/cli/sheet.ts)
+- [src/cli/format.ts](../src/cli/format.ts)
+- [src/runtime/sheet-compiler.ts](../src/runtime/sheet-compiler.ts)
+- [src/runtime/xlsx-adapter.ts](../src/runtime/xlsx-adapter.ts)
 
 ---
 

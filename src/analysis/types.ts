@@ -77,6 +77,7 @@ export interface AnalyzedComputeBlock {
   kind: "compute";
   tableName: string;
   outputs: AnalyzeTarget[];
+  outputColumns: TableColumn[];
   locals: string[];
   statements: AnalyzedComputeStatement[];
   source: SourceRange;

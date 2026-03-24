@@ -61,12 +61,9 @@ export class SheetSemanticAnalyzer {
         }
 
         const outputs: Record<string, TableColumn> = {};
-        for (const targetName of block.targets.names) {
-          outputs[targetName] = {
-            name: targetName,
-            declaredType: "dynamic",
-            columnType: "dynamic",
-            isTypeExplicit: false,
+        for (const targetColumn of block.targets.columns) {
+          outputs[targetColumn.name] = {
+            ...targetColumn,
           };
         }
         computeOutputMap[block.tableName] = outputs;
@@ -83,8 +80,8 @@ export class SheetSemanticAnalyzer {
     }
 
     const localNames = new Set<string>();
-    const outputs = block.targets.names.map((name) => ({ columnName: name }));
-    const outputSet = new Set(block.targets.names);
+    const outputs = block.targets.columns.map((column) => ({ columnName: column.name }));
+    const outputSet = new Set(block.targets.columns.map((column) => column.name));
 
     for (const statement of block.statements) {
       if (!outputSet.has(statement.target)) {
@@ -100,6 +97,7 @@ export class SheetSemanticAnalyzer {
       kind: "compute",
       tableName: block.tableName,
       outputs,
+      outputColumns: block.targets.columns.map((column) => ({ ...column })),
       locals: [...localNames],
       statements,
       source: block.source,

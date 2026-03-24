@@ -4,9 +4,9 @@ title: Weekly retail workbook
 currency: USD
 owner: operations
 
-# The plugin block is only parsed at this stage.
+# Plugin paths are resolved relative to this .sheet file.
 @plugin plugin
-path: ./examples/plugins/finance.ts
+path: ./plugins/finance.ts
 exports: tax, bucket
 
 # Raw sales data.
@@ -19,15 +19,16 @@ South,orange,store,4,6
 West,banana,store,2,7
 West,orange,online,4,3
 
-# Expressions are still preserved as source text in the file interface.
+# Compute outputs must be declared with target:.
 @compute sales
+target: revenue[number], taxed_revenue[number], avg_qty[number]
 revenue = price * qty
 taxed_revenue = plugin.tax(price, qty)
-size_bucket = plugin.bucket(qty)
 avg_qty = avg(qty)
 
-# Demo plot syntax: bar only.
+# Bar plots must declare deps: and may only reference number columns.
 @plot sales
+deps: price,qty
 x: price
 y: qty
 title: Price and quantity bar demo

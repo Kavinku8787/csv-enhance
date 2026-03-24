@@ -3,6 +3,12 @@ export { PluginModuleLoader } from "./file-interface/plugin-loader";
 export { SheetSyntaxParser } from "./file-interface/parser";
 export { SheetSemanticAnalyzer } from "./analysis/analyzer";
 export { ExpressionParser, type ParsedExpressionNode } from "./analysis/expression-parser";
+export { ComputeExecutor } from "./runtime/compute-executor";
+export { DocumentExecutor } from "./runtime/document-executor";
+export { ExpressionEvaluator } from "./runtime/expression-evaluator";
+export { PlotCompiler } from "./runtime/plot-compiler";
+export { SheetCompiler } from "./runtime/sheet-compiler";
+export { XlsxAdapter } from "./runtime/xlsx-adapter";
 export type {
   ColumnType,
   ComputeBlock,
@@ -43,6 +49,18 @@ export type {
   NumberLiteralNode,
   PluginCallNode,
 } from "./analysis/types";
+export type {
+  EvaluatedComputeResult,
+  EvaluatedExpression,
+  EvaluatedPlot,
+  EvaluatedSheetBlock,
+  EvaluatedSheetDocument,
+  EvaluatedTable,
+  ExpressionEvaluationContext,
+  RuntimeRow,
+} from "./runtime/types";
+export type { VegaLiteBarSpec, VegaLiteEncodingField, VegaLiteFieldType } from "./runtime/plot-compiler";
+export type { CompiledSheetResult, CompiledSheetResult as SheetCompilationResult } from "./runtime/sheet-compiler";
 export {
   inferColumnTypeFromCells,
   inferDynamicDataCellValue,

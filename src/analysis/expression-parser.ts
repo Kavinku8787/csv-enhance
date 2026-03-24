@@ -139,6 +139,9 @@ export class ExpressionParser {
   }
 }
 
+const IDENTIFIER_START_PATTERN = /[\p{L}_]/u;
+const IDENTIFIER_CONTINUE_PATTERN = /[\p{L}\p{N}\p{M}_]/u;
+
 function tokenizeExpression(source: string): Token[] {
   const tokens: Token[] = [];
   let index = 0;
@@ -167,9 +170,12 @@ function tokenizeExpression(source: string): Token[] {
       continue;
     }
 
-    if (/[A-Za-z_]/.test(currentChar)) {
+    if (IDENTIFIER_START_PATTERN.test(currentChar)) {
       let endIndex = index + 1;
-      while (endIndex < source.length && /[A-Za-z0-9_.]/.test(source[endIndex])) {
+      while (
+        endIndex < source.length &&
+        (IDENTIFIER_CONTINUE_PATTERN.test(source[endIndex]) || source[endIndex] === ".")
+      ) {
         endIndex += 1;
       }
 

